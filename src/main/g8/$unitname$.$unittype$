@@ -1,0 +1,14 @@
+[Unit]
+Description=$description$
+
+[Service]
+Restart=$restart$
+RuntimeMaxSec=$runtimemaxsec$
+ExecStart=$execfile$
+
+[Install]
+WantedBy=wantedby
+
+# You will need
+# systemctl daemon-reload
+# after configure this file.

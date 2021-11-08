@@ -7,7 +7,7 @@ RuntimeMaxSec=$runtimemaxsec$
 ExecStart=$execfile$
 
 [Install]
-WantedBy=wantedby
+WantedBy=$wantedby$
 
 # You will need
 # systemctl daemon-reload
